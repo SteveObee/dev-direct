@@ -3,6 +3,8 @@ const connectDB = require('./config/db');
 
 const app = express();
 
+process.title = 'myApp';
+
 // Connect Database
 connectDB();
 

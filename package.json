@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
+    "stop": "pkill --signal SIGINT myApp",
     "server": "nodemon server"
   },
   "author": "Stephen Obee",
