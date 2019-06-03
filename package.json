@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server",
     "stop": "pkill --signal SIGINT myApp",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "BROWSER=firefox concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Stephen Obee",
   "license": "MIT",
