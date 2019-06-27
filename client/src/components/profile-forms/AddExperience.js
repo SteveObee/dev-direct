@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import { connect } from 'react-redux';
 import { addExperience } from '../../actions/profile';
-import { Link, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const AddExperience = ({ addExperience, history }) => {
@@ -126,4 +126,4 @@ AddExperience.propTypes = {
 export default connect(
   null,
   { addExperience }
-)(AddExperience);
+)(withRouter(AddExperience));
