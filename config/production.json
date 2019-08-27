@@ -1,5 +1,5 @@
 {
-  "mongoURI": "mongodb://dev-direct:d60a53defbc265a36c764bcf33e60b28@dokku-mongo-dev-direct:27017/dev_direct",
+  "mongoURI": "mongodb://localhost/dev-direct",
   "jwtSecret": "mysecrettoken",
   "githubClientId": "81b04ae5ca62bef92fc1",
   "githubSecret": "439f02bc580c10b152d09af05576e17eab7c9aa8"
